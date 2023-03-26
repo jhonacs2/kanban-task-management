@@ -11,11 +11,11 @@ export const APP_ROUTES: Routes = [
   },
   {
     path: '',
-    redirectTo: 'public',
+    redirectTo: 'secure',
     pathMatch: 'full'
   },
   {
     path: '**',
-    redirectTo: 'public'
+    redirectTo: 'secure'
   }
 ];
