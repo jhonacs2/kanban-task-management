@@ -15,6 +15,8 @@ $light_grey: #F4F7FD;
 body.light {
   --bg-color: #{$light_grey};
   --text-color: #{$medium_grey};
+  --text-color-list: #{$white};
+  --text-color-list-last: #{$main_purple};
   --bg-color-aside: #{$white};
   //--box-shadow: #{$box_shadow_light};
   //--background-input: #{$background_input_light};
