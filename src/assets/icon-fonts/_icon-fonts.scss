@@ -1,0 +1,197 @@
+$icomoon-font-family: "kanban" !default;
+$icomoon-font-path: "fonts" !default;
+
+$icon-icon-add-task-mobile: "\e900";
+$icon-icon-board: "\e901";
+$icon-icon-cross: "\e905";
+$icon-icon-dark-theme: "\e906";
+$icon-icon-hide-sidebar: "\e907";
+$icon-icon-light-theme: "\e908";
+$icon-icon-show-sidebar: "\e909";
+$icon-icon-vertical-ellipsis: "\e90a";
+$icon-logo-dark-path1: "\e90b";
+$icon-logo-dark-path2: "\e90c";
+$icon-logo-dark-path3: "\e90d";
+$icon-logo-dark-path4: "\e90e";
+$icon-logo-light-path1: "\e90f";
+$icon-logo-light-path2: "\e910";
+$icon-logo-light-path3: "\e911";
+$icon-logo-light-path4: "\e912";
+$icon-logo-mobile-path1: "\e913";
+$icon-logo-mobile-path2: "\e914";
+$icon-logo-mobile-path3: "\e915";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5uy2vc');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5uy2vc#iefix') format('embedded-opentype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5uy2vc') format('truetype'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5uy2vc') format('woff'),
+  url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5uy2vc##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-icon-add-task-mobile {
+  &:before {
+    content: $icon-icon-add-task-mobile;
+    color: #fff;
+  }
+}
+
+.icon-icon-board {
+  &:before {
+    content: $icon-icon-board;
+    color: #828fa3;
+  }
+}
+
+.icon-icon-cross {
+  &:before {
+    content: $icon-icon-cross;
+    color: #828fa3;
+  }
+}
+
+.icon-icon-dark-theme {
+  &:before {
+    content: $icon-icon-dark-theme;
+    color: #828fa3;
+  }
+}
+
+.icon-icon-hide-sidebar {
+  &:before {
+    content: $icon-icon-hide-sidebar;
+    color: #828fa3;
+  }
+}
+
+.icon-icon-light-theme {
+  &:before {
+    content: $icon-icon-light-theme;
+    color: #828fa3;
+  }
+}
+
+.icon-icon-show-sidebar {
+  &:before {
+    content: $icon-icon-show-sidebar;
+    color: #fff;
+  }
+}
+
+.icon-icon-vertical-ellipsis {
+  &:before {
+    content: $icon-icon-vertical-ellipsis;
+    color: #828fa3;
+  }
+}
+
+.icon-logo-dark .path1 {
+  &:before {
+    content: $icon-logo-dark-path1;
+    color: rgb(0, 1, 18);
+  }
+}
+
+.icon-logo-dark .path2 {
+  &:before {
+    content: $icon-logo-dark-path2;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+  }
+}
+
+.icon-logo-dark .path3 {
+  &:before {
+    content: $icon-logo-dark-path3;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+    opacity: 0.75;
+  }
+}
+
+.icon-logo-dark .path4 {
+  &:before {
+    content: $icon-logo-dark-path4;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+    opacity: 0.5;
+  }
+}
+
+.icon-logo-light .path1 {
+  &:before {
+    content: $icon-logo-light-path1;
+    color: rgb(255, 255, 255);
+  }
+}
+
+.icon-logo-light .path2 {
+  &:before {
+    content: $icon-logo-light-path2;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+  }
+}
+
+.icon-logo-light .path3 {
+  &:before {
+    content: $icon-logo-light-path3;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+    opacity: 0.75;
+  }
+}
+
+.icon-logo-light .path4 {
+  &:before {
+    content: $icon-logo-light-path4;
+    margin-left: -5.884765625em;
+    color: rgb(99, 95, 199);
+    opacity: 0.5;
+  }
+}
+
+.icon-logo-mobile .path1 {
+  &:before {
+    content: $icon-logo-mobile-path1;
+    color: rgb(99, 95, 199);
+  }
+}
+
+.icon-logo-mobile .path2 {
+  &:before {
+    content: $icon-logo-mobile-path2;
+    margin-left: -0.9599609375em;
+    color: rgb(99, 95, 199);
+    opacity: 0.75;
+  }
+}
+
+.icon-logo-mobile .path3 {
+  &:before {
+    content: $icon-logo-mobile-path3;
+    margin-left: -0.9599609375em;
+    color: rgb(99, 95, 199);
+    opacity: 0.5;
+  }
+}
+

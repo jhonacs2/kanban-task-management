@@ -1,0 +1,27 @@
+.nav-bar-section {
+  display: flex;
+  padding: 2.4rem 2.4rem 3.2rem 2.4rem;
+  background-color: var(--bg-color-aside);
+  align-items: center;
+}
+
+.title-nav-bar {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  color: #000112;
+  font-size: 2.4rem;
+}
+
+.button-tasks-container {
+  margin-left: auto;
+  display: flex;
+}
+
+.more-option-kanban {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-left: 2.4rem;
+  align-self: center;
+}

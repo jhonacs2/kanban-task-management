@@ -1,5 +1,5 @@
 .aside-kanban {
-  max-width: 30rem;
+  min-width: 30rem;
   background-color: var(--bg-color-aside);
   height: 100vh;
   padding-top: 3.2rem;
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
-  font-size: 1.9rem;
+  font-size: 1.6rem;
   width: 91%;
 
   li {
