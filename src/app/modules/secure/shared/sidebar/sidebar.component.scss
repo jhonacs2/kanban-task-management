@@ -1,19 +1,17 @@
+:host {
+  flex: 0 0 30rem;
+}
+
 .aside-kanban {
-  min-width: 30rem;
+  max-width: 30rem;
   background-color: var(--bg-color-aside);
   height: 100vh;
   padding-top: 3.2rem;
 }
 
-.logo-kanban {
-  display: inline-block;
-  margin-bottom: 4.8rem;
-  padding-left: 3.2rem;
-}
-
 .title-boards {
-  font-size: 1.5rem;
-  letter-spacing: 1px;
+  font-size: 1.2rem;
+  letter-spacing: 3px;
   text-transform: uppercase;
   padding-left: 3.2rem;
 }

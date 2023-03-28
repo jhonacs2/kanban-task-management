@@ -1,13 +1,19 @@
 <section class="nav-bar-section">
-  <h2 class="title-nav-bar">Platform Launch</h2>
+  <div class="logo-kanban" (click)="toggleAsideVisibility(logoKanbanHtml)" #logoKanbanHtml>
+    <img src="./assets/images/logo-dark.svg" alt="">
+  </div>
 
-  <div class="button-tasks-container">
-    <button class="button">
-      + Add New Task
-    </button>
+  <div class="nav-bar-button-container">
+    <h2 class="title-nav-bar">Platform Launch</h2>
 
-    <button class="more-option-kanban">
-      <span class="icon-icon-vertical-ellipsis"></span>
-    </button>
+    <div class="button-tasks-container">
+      <button class="button">
+        + Add New Task
+      </button>
+
+      <button class="more-option-kanban">
+        <span class="icon-icon-vertical-ellipsis"></span>
+      </button>
+    </div>
   </div>
 </section>

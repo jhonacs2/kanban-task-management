@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+
+  constructor() {
+  }
+
+  toggleAsideVisibility( logoKanbanHtml: HTMLDivElement ): void {
+    console.log('loguito', logoKanbanHtml);
+  }
 }
