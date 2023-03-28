@@ -1,5 +1,6 @@
+<button (click)="toggleSidebar()">mostrar</button>
 <app-nav-bar></app-nav-bar>
 <section class="kanban-boards-section">
-  <app-sidebar></app-sidebar>
+  <app-sidebar [@slideInOut] *ngIf="sideBarVisible"></app-sidebar>
   <router-outlet></router-outlet>
 </section>
