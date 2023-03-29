@@ -15,6 +15,7 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   padding-left: 3.2rem;
+  cursor: default;
 }
 
 .kanban-list {
@@ -31,6 +32,13 @@
     border-top-right-radius: 3rem;
     font-weight: 700;
     letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  li:hover:not(:last-child) {
+    color: var(--text-color-list);
+    background-color: #635FC7;
   }
 
   li.active {

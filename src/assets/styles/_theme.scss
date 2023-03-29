@@ -15,6 +15,7 @@ $light_grey: #F4F7FD;
 body.light {
   --bg-color: #{$light_grey};
   --bg-color-aside: #{$white};
+  --bg-color-aside-text-hover: #{$main_purple-hover};
   --text-color: #{$medium_grey};
   --text-color-list: #{$white};
   --text-color-list-last: #{$main_purple};

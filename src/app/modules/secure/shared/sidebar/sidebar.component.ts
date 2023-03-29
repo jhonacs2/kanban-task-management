@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
-import { animate, state, style, transition, trigger } from '@angular/animations';
-import { first, interval } from 'rxjs';
-import { slideInOutAnimation } from '../../animations/slideInAnimation.function';
+import { BoardResponse } from '../../interfaces/board-response.interface';
 
 @Component({
   selector: 'app-sidebar',
@@ -10,9 +8,13 @@ import { slideInOutAnimation } from '../../animations/slideInAnimation.function'
 })
 
 export class SidebarComponent {
-  testif: boolean = false;
+  boardList: BoardResponse[];
 
   constructor() {
-    interval(3000).pipe(first()).subscribe(() => this.testif = true);
+    this.boardList = [
+      { id: '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d', boardName: 'Platform Launch' },
+      { id: '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d', boardName: 'Marketing Plan' },
+      { id: '9b1deb4d-3b7d-4bad-9bdd-2b0d7b3dcb6d', boardName: 'RoadMap' },
+    ];
   }
 }

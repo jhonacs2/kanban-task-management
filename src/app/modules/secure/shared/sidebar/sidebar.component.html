@@ -1,9 +1,8 @@
 <aside class="aside-kanban">
-  <h3 class="title-boards mb-5">All boards (3)</h3>
+  <h3 class="title-boards mb-5">All boards ({{boardList.length}})</h3>
   <ul class="kanban-list">
-    <li class="active">Platform Launch</li>
-    <li>Marketing Plan</li>
-    <li>RoadMap</li>
-    <li>+ Create New Board </li>
+    <li *ngFor="let board of boardList">{{board.boardName}}</li>
+<!--     <li class="active">Platform Launch</li> -->
+    <li>+ Create New Board</li>
   </ul>
 </aside>
